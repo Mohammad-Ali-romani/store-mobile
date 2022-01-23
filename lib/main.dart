@@ -13,7 +13,7 @@ class Myapp extends StatelessWidget {
     // TODO: implement build
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(fontFamily: 'Cairo'),
+      theme: ThemeData(fontFamily: 'Cairo',),
       title: "app",
       home: Home(),
       routes: {
@@ -21,7 +21,7 @@ class Myapp extends StatelessWidget {
         'about': (context) => (About()),
         'categories': (context) => (Categories()),
         'category': (context) => (Category()),
-        'product':(context)=>(Product())
+        'product': (context) => (Product())
       },
     );
   }

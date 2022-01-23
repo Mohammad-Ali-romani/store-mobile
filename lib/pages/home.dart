@@ -13,7 +13,7 @@ class Home extends StatelessWidget {
               title: Text("Mobile Me",
                   style: TextStyle(fontWeight: FontWeight.w600)),
               centerTitle: true,
-              backgroundColor: Colors.blue,
+              // backgroundColor: Colors.blue,
               actions: [IconButton(icon: Icon(Icons.search), onPressed: () {})],
               toolbarHeight: 60,
               toolbarOpacity: 0.7,
